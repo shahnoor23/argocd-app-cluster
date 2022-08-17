@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd-app-cluster/deployments/app-1.yaml
+    path: deployments/app-1
     repoURL: https://github.com/shahnoor23/argocd-app-cluster.git
-    targetRevision: HEAD
+    targetRevision: master
